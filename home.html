@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navbar bg-white container-fluid p-2 d-flex shadow-lg justify-content-between align-items-center px-5">
+        <div class="nav-item d-flex align-items-center gap-5 ">
+            <p class="item fs-5 fw-bold text-primary">TechShop</p>
+            <ul class="list-group-item d-flex fs-5 gap-5 fw-bold">
+                <li class="list-group">Home</li>
+                <li class="list-group">Menu</li>
+                <li class="list-group">About</li>
+            </ul>    
+        </div>
+
+        <div class="d-flex gap-5">
+            
+            <input type="text" class="border-2 rounded-3" placeholder="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0m-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+            </svg>
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+        <ul class="list-group-item d-flex fs-1 gap-5 justify-content-center">
+            <li class="list-group text-light p-md-2"><a href="/home.html"></a>All Product</li>
+            <li class="list-group text-light p-md-2"><a href="/mouse.html" class="nav-link"></a>Mouse</li>
+            <li class="list-group text-light p-md-2">Key board</li>
+            <li class="list-group text-light p-md-2">Laptop</li>
+            <li class="list-group text-light p-md-2">Phone</li>
+
+        </ul>
+    </div>
+
+    <div class="container">
+        <!-- grid bootstrap -->
+        <div class="row g-5" >
+            <div class="col col-12 col-12 col-md-6 col-lg-3 ">
+                <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/30/a4/0d/30a40d3e549fd8027cbe50bf210b45aa.jpg" alt="" class="object-fit-cover">
+                    <div class="card-body">
+                        <label for="">Mouse</label><br>
+                        <span class="fw-bold">Rapoo N100 Wired Optical </span><br>
+                        <p class="fw-bold">$12</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-12 col-md-6 col-lg-3">
+                 <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/d0/75/d8/d075d8b5836ff695a4b3a1a915065548.jpg" alt="">
+                    <div class="card-body">
+                        <span>Mouse</span><br>
+                        <span class="fw-bold">TECKNET Bluetooth  </span><br>
+                        <p class="fw-bold">$15</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col col-12 col-12 col-md-6 col-lg-3">
+                 <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/1200x/21/77/4b/21774b2af42466c23d924a17cef1ecb3.jpg" alt="">
+                    <div class="card-body">
+                        <span>Mouse</span><br>
+                        <span class="fw-bold">TECKNET USB Wired  </span><br>
+                        <p class="fw-bold">$35</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-12 col-md-6 col-lg-3">
+                 <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/1200x/42/82/4e/42824e145ece587dbf8ed03981d1a2ea.jpg" alt="">
+                    <div class="card-body">
+                        <span>Mouse</span><br>
+                        <span class="fw-bold">TECKNET USB Wired  </span><br>
+                        <p class="fw-bold">$20</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-12 col-md-6 col-lg-3">
+                 <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/1200x/ae/0e/ab/ae0eabe264cd74d3f628c1c1a80f7034.jpg" alt="">
+                    <div class="card-body">
+                        <span>Mouse</span><br>
+                        <span class="fw-bold">The Logitech G903  </span><br>
+                        <p class="fw-bold">$17</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-12 col-md-6 col-lg-3">
+                 <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/a1/ae/33/a1ae33041dd339b4500f752a4b15f683.jpg" alt="">
+                    <div class="card-body">
+                        <span>Mouse</span><br>
+                        <span class="fw-bold">G502 HERO </span><br>
+                        <p class="fw-bold">$30</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-12 col-md-6 col-lg-3">
+                 <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/cb/9d/fa/cb9dfa6228f69bac2573982cfe24bbe5.jpg" alt="">
+                    <div class="card-body">
+                        <span>Mouse</span><br>
+                        <span class="fw-bold">Esport Game </span><br>
+                        <p class="fw-bold">$67</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col col-12 col-12 col-md-6 col-lg-3">
+                 <div class="card overflow-hidden">
+                    <img src="https://i.pinimg.com/1200x/d4/cb/6f/d4cb6fade45bd4cd7a52095db43e0e97.jpg" alt="">
+                    <div class="card-body">
+                        <span>Mouse</span><br>
+                        <span class="fw-bold">Smailwolf RS8 </span><br>
+                        <p class="fw-bold">$99</p>
+                        <button class="bg-primary rounded-2 w-100 fw-bold">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
